@@ -15,5 +15,23 @@
  echo "Add"
  echo "Subtract"
  echo "Exit"
+
  read selection
- echo $selection
+ 
+ case $selection in
+  "Add")
+    echo "user has selected 'Add'"
+    ;;
+ esac
+
+ case $selection in
+  "Subtract")
+    echo "user has selected 'Subtract'"
+    ;;
+ esac
+
+ case $selection in
+  "Exit")
+    echo "user has selected 'Exit'"
+    ;;
+ esac
