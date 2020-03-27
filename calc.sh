@@ -11,3 +11,8 @@
 # When the operation is complete, redisplay the menu.
  
  echo "Hello, welcome to the calculator program."
+ echo "Please make a selction:"
+ echo "Add"
+ echo "Subtract"
+ echo "Exit"
+ 
